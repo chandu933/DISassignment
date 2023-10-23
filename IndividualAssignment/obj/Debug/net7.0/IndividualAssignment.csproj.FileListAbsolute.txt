@@ -1,0 +1,14 @@
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\bin\Debug\net7.0\IndividualAssignment.exe
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\bin\Debug\net7.0\IndividualAssignment.deps.json
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\bin\Debug\net7.0\IndividualAssignment.runtimeconfig.json
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\bin\Debug\net7.0\IndividualAssignment.dll
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\bin\Debug\net7.0\IndividualAssignment.pdb
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\obj\Debug\net7.0\IndividualAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\obj\Debug\net7.0\IndividualAssignment.AssemblyInfoInputs.cache
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\obj\Debug\net7.0\IndividualAssignment.AssemblyInfo.cs
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\obj\Debug\net7.0\IndividualAssignment.csproj.CoreCompileInputs.cache
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\obj\Debug\net7.0\IndividualAssignment.dll
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\obj\Debug\net7.0\refint\IndividualAssignment.dll
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\obj\Debug\net7.0\IndividualAssignment.pdb
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\obj\Debug\net7.0\IndividualAssignment.genruntimeconfig.cache
+C:\Users\srich\source\repos\IndividualAssignment\IndividualAssignment\obj\Debug\net7.0\ref\IndividualAssignment.dll
