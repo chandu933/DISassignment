@@ -287,7 +287,7 @@ namespace ISM6225_Fall_2023_Assignment_2
             try
             {
                 // Initialize variables to keep track of the minimum stock price and maximum profit
-                int minStockPrice = int.MaxValue;
+                int minPrice = int.MaxValue;
                 int maxProfit = 0;
 
                 // Handle the case of an empty array gracefully by returning 0 profit.
@@ -298,14 +298,14 @@ namespace ISM6225_Fall_2023_Assignment_2
                 for (int day = 0; day < prices.Length; day++)
                 {
                     // If the current stock price is lower than the previously recorded minimum price, update the minimum price
-                    if (prices[day] < minStockPrice)
+                    if (prices[day] < minPrice)
                     {
-                        minStockPrice = prices[day];
+                        minPrice = prices[day];
                     }
                     else
                     {
                         // Calculate the current day's profit and update the maximum profit if it's greater
-                        int currentProfit = prices[day] - minStockPrice;
+                        int currentProfit = prices[day] - minPrice;
                         maxProfit = Math.Max(maxProfit, currentProfit);
                     }
                 }
@@ -355,25 +355,25 @@ namespace ISM6225_Fall_2023_Assignment_2
                     return false;
 
                 // Initialize two pointers, 'leftPointer' and 'rightPointer,' to check characters from the beginning and end of the string.
-                int leftPointer = 0;
-                int rightPointer = s.Length - 1;
+                int left = 0;
+                int right = s.Length - 1;
 
                 // Define pairs of strobogrammatic characters. A strobogrammatic pair reads the same when rotated 180 degrees.
                 string strobogrammaticPairs = "00 11 88 69 96";
 
                 // Iterate while the 'leftPointer' is less than or equal to the 'rightPointer'.
-                while (leftPointer <= rightPointer)
+                while (left <= right)
                 {
-                    char leftChar = s[leftPointer];
-                    char rightChar = s[rightPointer];
+                    char leftChar = s[left];
+                    char rightChar = s[right];
 
                     // Check if the pair of characters formed by 'leftChar' and 'rightChar' is a valid strobogrammatic pair.
                     if (!strobogrammaticPairs.Contains($"{leftChar}{rightChar}"))
                         return false;
 
                     // Move the pointers towards each other.
-                    leftPointer++;
-                    rightPointer--;
+                    left++;
+                    right--;
                 }
 
                 // If the loop completes without returning false, the input string is strobogrammatic.
@@ -629,7 +629,7 @@ namespace ISM6225_Fall_2023_Assignment_2
 
         public static string RemoveVowels(string s)
         {
-            string newS = "";
+            string newString = "";
             // Iterate through every char of string.
             foreach (char ch in s)
             {
@@ -641,11 +641,11 @@ namespace ISM6225_Fall_2023_Assignment_2
                 // If char not an vovwel adding to the new String.
                 else
                 {
-                    newS += ch;
+                    newString += ch;
                 }
             }
             // Return new string witgh removed vowels
-            return newS;
+            return newString;
         }
 
         /* Inbuilt Functions - Don't Change the below functions */
